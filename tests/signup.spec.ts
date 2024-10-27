@@ -17,8 +17,8 @@ test.afterEach(async ({ page }, testInfo) => {
 
 // Helper function to generate a unique email
 function generateUniqueEmail() {
-    const timestamp = Date.now(); // Current timestamp in milliseconds
-    return `test+${timestamp}@example.com`; // Example: testuser+1634567890123@example.com
+    const timestamp = Date.now(); 
+    return `test+${timestamp}@example.com`; 
 }
 
 
